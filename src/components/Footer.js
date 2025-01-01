@@ -47,7 +47,7 @@ function Footer() {
       </footer>
 
       <a
-        href="#"
+        href="javascript:void(0)"
         id="scroll-top"
         className="scroll-top d-flex align-items-center justify-content-center"
         data-aos="fade-up"
