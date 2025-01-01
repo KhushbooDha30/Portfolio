@@ -46,16 +46,15 @@ function Footer() {
         </div>
       </footer>
 
-      <a
-        href="javascript:void(0)"
-        id="scroll-top"
-        className="scroll-top d-flex align-items-center justify-content-center"
-        data-aos="fade-up"
-        data-aos-delay="300"
-      >
-        <i className="bi bi-arrow-up-short"></i>
-      </a>
-
+      <button
+  id="scroll-top"
+  className="scroll-top d-flex align-items-center justify-content-center"
+  data-aos="fade-up"
+  data-aos-delay="300"
+  onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}  // Smooth scroll to top
+>
+  <i className="bi bi-arrow-up-short"></i>
+</button>
       <div id="preloader"></div>
     </>
   );
