@@ -55,7 +55,7 @@ function Footer() {
 >
   <i className="bi bi-arrow-up-short"></i>
 </button>
-      <div id="preloader"></div>
+      
     </>
   );
 }
